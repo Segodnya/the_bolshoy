@@ -3,7 +3,7 @@
   display: block;
   text-transform: uppercase;
   writing-mode: vertical-rl;
-  transform: rotate(-180deg);
+  transform: rotate(180deg);
   color: #c4c4c4;
   font-family: "Open Sans Condensed";
   font-style: normal;
