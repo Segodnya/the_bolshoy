@@ -1,0 +1,12 @@
+.contacts__title {
+  margin: 0;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  color: #c4c4c4;
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+}
