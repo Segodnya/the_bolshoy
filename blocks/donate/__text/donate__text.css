@@ -1,0 +1,13 @@
+.donate__text {
+  grid-row: 3 / 4;
+  grid-column: 2 / 4;
+  margin: 0;
+  padding: 0;
+  max-width: 390px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+}

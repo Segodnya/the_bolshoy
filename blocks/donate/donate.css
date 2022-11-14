@@ -1,0 +1,7 @@
+.donate {
+  margin: 0 auto;
+  padding: 120px 0 80px 150px;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: column;
+}

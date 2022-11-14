@@ -1,0 +1,8 @@
+.donate__grid {
+  margin: 0;
+  padding: 100px 0 0 0;
+  display: grid;
+  grid-template-columns: auto repeat(2, 180px) 310px;
+  grid-template-rows: repeat(3 1fr);
+  gap: 30px;
+}
