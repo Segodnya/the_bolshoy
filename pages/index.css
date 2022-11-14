@@ -1,8 +1,9 @@
-/* Normalize */
+/* Normalize & Fonts */
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 
 /* Page */
-@import url(../blocks/pages/page.css);
+@import url(../blocks/page/page.css);
 
 /* Contacts */
 @import url(../blocks/contacts/contacts.css);
