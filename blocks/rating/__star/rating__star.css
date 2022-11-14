@@ -1,0 +1,5 @@
+.rating__star {
+  display: block;
+  max-width: 26px;
+  max-height: 24px;
+}
