@@ -10,3 +10,12 @@
 @import url(../blocks/contacts/__line/contacts__line.css);
 @import url(../blocks/contacts/__socials/contact__socials.css);
 @import url(../blocks/contacts/__social/contacts.social.css);
+
+/* Section-title */
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_highlighted/section-title__highlighted.css);
+
+/* Partners */
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__grid/partners__grid.css);
+@import url(../blocks/partners/__logo/partners__logo.css);

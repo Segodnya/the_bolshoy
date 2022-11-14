@@ -1,0 +1,7 @@
+.partners {
+  margin: 0 auto;
+  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
