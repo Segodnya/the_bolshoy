@@ -31,7 +31,6 @@
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__grid/projects__grid.css);
 @import url(../blocks/projects/__item/projects__item.css);
-@import url(../blocks/projects/__photo/projects__photo.css);
 @import url(../blocks/projects/__search/projects__search.css);
 @import url(../blocks/projects/__name/projects__name.css);
 @import url(../blocks/projects/__date/projects__date.css);

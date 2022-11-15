@@ -4,4 +4,29 @@
   position: relative;
   padding-bottom: 0%;
   z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.projects__item:nth-of-type(1) {
+  background-image: url("../../../images/projects/projects__oscar.png");
+}
+
+.projects__item:nth-of-type(2) {
+  background-image: url("../../../images/projects/projects__opera.png");
+}
+
+.projects__item:nth-of-type(3) {
+  background-image: url("../../../images/projects/projects__golden.png");
+}
+
+.projects__item:nth-of-type(4) {
+  background-image: url("../../../images/projects/projects__kraken.png");
+}
+
+.projects__item:hover {
+  opacity: 1;
 }
