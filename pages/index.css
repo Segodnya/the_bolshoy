@@ -27,6 +27,16 @@
 @import url(../blocks/about/__caption/_highlighted/about__caption_highlighted.css);
 @import url(../blocks/about/__photo/about__photo.css);
 
+/* Projects */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__grid/projects__grid.css);
+@import url(../blocks/projects/__item/projects__item.css);
+@import url(../blocks/projects/__photo/projects__photo.css);
+@import url(../blocks/projects/__search/projects__search.css);
+@import url(../blocks/projects/__info/projects__info.css);
+@import url(../blocks/projects/__name/projects__name.css);
+@import url(../blocks/projects/__date/projects__date.css);
+
 /* Rating */
 @import url(../blocks/rating/rating.css);
 @import url(../blocks/rating/__years/rating__years.css);

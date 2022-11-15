@@ -1,0 +1,7 @@
+.projects__search {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: calc(100% / 2 - 50px);
+  left: calc(100% / 2 - 50px);
+}
