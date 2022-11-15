@@ -16,6 +16,24 @@
   }
 }
 
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .projects__search {
   position: absolute;
   width: 100px;
@@ -25,11 +43,14 @@
 }
 
 .projects__item .projects__search {
-  display: none;
+  visibility: hidden;
+  -webkit-animation: fadeOut 0.5s;
+  animation: fadeOut 0.5s;
+  transition: visibility 0.5s ease-in-out;
 }
 
 .projects__item:hover .projects__search {
-  display: block;
-  -webkit-animation: fadeIn 0.3s;
-  animation: fadeIn 0.3s;
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
