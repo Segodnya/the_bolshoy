@@ -16,6 +16,17 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_highlighted/section-title__highlighted.css);
 
+/* About */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__box/about__box.css);
+@import url(../blocks/about/__col/about__col.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__icon/about__icon.css);
+@import url(../blocks/about/__caption/about__caption.css);
+@import url(../blocks/about/__caption/_highlighted/about__caption_highlighted.css);
+@import url(../blocks/about/__photo/about__photo.css);
+
 /* Rating */
 @import url(../blocks/rating/rating.css);
 @import url(../blocks/rating/__years/rating__years.css);

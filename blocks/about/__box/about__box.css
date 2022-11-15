@@ -1,0 +1,6 @@
+.about__box {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 445px 225px 350px;
+  gap: 30px;
+}
