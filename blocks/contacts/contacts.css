@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 150px;
-  height: 1045px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
