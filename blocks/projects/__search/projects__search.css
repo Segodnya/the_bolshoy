@@ -5,3 +5,12 @@
   top: calc(100% / 2 - 50px);
   left: calc(100% / 2 - 50px);
 }
+
+.projects__item .projects__search {
+  display: none;
+  transition: display 0.3s ease-in-out;
+}
+
+.projects__item:hover .projects__search {
+  display: block;
+}
