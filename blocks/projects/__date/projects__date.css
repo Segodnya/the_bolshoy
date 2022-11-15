@@ -1,6 +1,8 @@
 .projects__date {
-  align-self: flex-start;
   margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   font-family: "Open Sans Condensed";
   font-style: normal;
   font-weight: 700;
