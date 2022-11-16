@@ -7,7 +7,9 @@ let slideIndex = 1,
 const slides = document.querySelectorAll(".swiper__image"),
   btnPrev = document.querySelector(".swiper__button_type_prev"),
   btnNext = document.querySelector(".swiper__button_type_prev"),
+  slidesWrapper = document.querySelector(".swiper__wrapper"),
   slidesField = document.querySelector(".swiper__items"),
+  slideItem = document.querySelector(".swiper__item"),
   widthSlide = 450;
 
 slidesField.style.width = widthSlide * slides.length + "px";
