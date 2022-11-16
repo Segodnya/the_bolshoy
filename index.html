@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Большой Театр</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
@@ -349,16 +345,7 @@
         <p class="footer__text">Разработано by Кирилл Куренцов</p>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        loop: true,
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper__button_type_next",
-          prevEl: ".swiper__button_type_prev",
-        },
-      });
-    </script>
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
   </body>
 </html>
