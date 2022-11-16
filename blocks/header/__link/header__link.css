@@ -1,0 +1,17 @@
+.header__link {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__link:hover {
+  color: #d1a954;
+  border-bottom: 2px solid #d1a954;
+}

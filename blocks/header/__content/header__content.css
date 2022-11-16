@@ -1,0 +1,7 @@
+.header__content {
+  margin: 0 auto;
+  padding-bottom: 208px;
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+}

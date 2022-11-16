@@ -1,0 +1,6 @@
+.button_place_donate {
+  grid-row: 3 / 4;
+  grid-column: 4 / 5;
+  justify-self: flex-end;
+  width: 190px;
+}

@@ -1,0 +1,9 @@
+.swiper__bg {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 350px;
+  height: 490px;
+  background-color: #d1a954;
+  z-index: -1;
+}

@@ -1,0 +1,15 @@
+.button {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  background: #d1a954;
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}

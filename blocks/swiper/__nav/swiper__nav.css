@@ -1,0 +1,7 @@
+.swiper__nav {
+  margin: 0;
+  max-width: 100%;
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}

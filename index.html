@@ -8,7 +8,47 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
+    <header class="header" id="header">
+      <nav class="header__nav">
+        <ul class="header__links">
+          <li><a href="#header" class="header__link">Главная</a></li>
+          <li><a href="#about" class="header__link">о театре</a></li>
+          <li><a href="#projects" class="header__link">Наши постановки</a></li>
+          <li><a href="#partners" class="header__link">партнеры театра</a></li>
+          <li><a href="#donate" class="header__link">контакты</a></li>
+        </ul>
+        <p class="header__phone">+7 495 123-45-67</p>
+      </nav>
+      <div class="header__content">
+        <div class="header__announcement">
+          <h1 class="header__title">Большой театр</h1>
+          <p class="header__text">
+            Большо́й теа́тр — петербургский театр, существовавший в 1784—1886
+            годах, с 1886 года — Петербургская консерватория. Первое постоянное
+            в Санкт-Петербурге, крупнейшее в России и одно из крупнейших
+            театральных зданий в Европе XVIII.
+          </p>
+          <a href="#" class="button button_place_header">афиша</a>
+        </div>
+        <div class="swiper">
+          <div class="swiper__wrapper">
+            <div class="swiper__slide">
+              <ul class="swiper__items">
+                <li class="swiper__item"><img src="./images/header/header__image-1.jpeg" alt="Giselle" class="swiper__image"></li>
+                <!-- 
+                  <li class="swiper__item"><img src="./images/header/header__image-2.jpeg" alt="Kraken" class="swiper__image"></li>
+                  <li class="swiper__item"><img src="./images/header/header__image-3.jpeg" alt="La Scala" class="swiper__image"></li>
+                 -->
+              </ul>
+              <div class="swiper__bg"></div>
+            </div>
+            <div class="swiper__nav">
+              <a href="#" class="swiper__button swiper__button_type_prev">&#8592;&nbsp;пред</a>
+              <a href="#" class="swiper__button swiper__button_type_next">след&nbsp;&#8594;</a>
+            </div>
+          </div>
+        </div>
+    </header>
     <section class="contacts">
       <p class="contacts__title">контактная&nbsp;информация</p>
       <div class="contacts__line"></div>
@@ -43,7 +83,7 @@
         </li>
       </ul>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <h2 class="section-title">
         <span class="section-title section-title_highlighted">о</span>
         театре
@@ -93,7 +133,7 @@
         </div>
       </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <h2 class="section-title">
         <span class="section-title section-title_highlighted">наши</span>
         постановки
@@ -176,7 +216,7 @@
         </p>
       </div>
     </section>
-    <section class="partners">
+    <section class="partners" id="partners">
       <h2 class="section-title">
         <span class="section-title section-title_highlighted">партнеры</span>
         театра
@@ -224,7 +264,7 @@
         />
       </div>
     </section>
-    <section class="donate">
+    <section class="donate" id="donate">
       <h2 class="section-title">
         <span class="section-title section-title_highlighted">стать</span>
         меценатом
@@ -273,7 +313,7 @@
           Конфиденциальность мы гарантируем, и защищаем персональные данные
           согласно законку ФЗ-52.
         </p>
-        <button class="donate__button">отправить</button>
+        <button class="button button_place_donate">отправить</button>
       </div>
     </section>
     <footer class="footer">
@@ -283,5 +323,6 @@
         <p class="footer__text">Разработано by Кирилл Куренцов</p>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
