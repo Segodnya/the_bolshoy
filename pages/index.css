@@ -12,10 +12,8 @@
 
 /* Swiper */
 @import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper/__box/swiper__box.css);
 @import url(../blocks/swiper/__wrapper/swiper__wrapper.css);
-@import url(../blocks/swiper/__items/swiper__items.css);
-@import url(../blocks/swiper/__item/swiper__item.css);
-@import url(../blocks/swiper/__slide/swiper__slide.css);
 @import url(../blocks/swiper/__image/swiper__image.css);
 @import url(../blocks/swiper/__bg/swiper__bg.css);
 @import url(../blocks/swiper/__nav/swiper__nav.css);

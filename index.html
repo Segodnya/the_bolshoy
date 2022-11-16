@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Большой Театр</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
@@ -30,24 +34,46 @@
           </p>
           <a href="#" class="button button_place_header">афиша</a>
         </div>
-        <div class="swiper">
-          <div class="swiper__wrapper">
-            <div class="swiper__slide">
-              <ul class="swiper__items">
-                <li class="swiper__item"><img src="./images/header/header__image-1.jpeg" alt="Giselle" class="swiper__image"></li>
-                <!-- 
-                  <li class="swiper__item"><img src="./images/header/header__image-2.jpeg" alt="Kraken" class="swiper__image"></li>
-                  <li class="swiper__item"><img src="./images/header/header__image-3.jpeg" alt="La Scala" class="swiper__image"></li>
-                 -->
-              </ul>
-              <div class="swiper__bg"></div>
-            </div>
-            <div class="swiper__nav">
-              <a href="#" class="swiper__button swiper__button_type_prev">&#8592;&nbsp;пред</a>
-              <a href="#" class="swiper__button swiper__button_type_next">след&nbsp;&#8594;</a>
+        <div class="swiper__box">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="./images/header/header__image-1.jpeg"
+                  alt="Giselle"
+                  class="swiper__image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/header/header__image-2.jpeg"
+                  alt="Kraken"
+                  class="swiper__image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/header/header__image-3.jpeg"
+                  alt="La Scala"
+                  class="swiper__image"
+                />
+              </div>
             </div>
           </div>
+          <div class="swiper__nav">
+            <div class="swiper__button swiper__button_type_prev">
+              ←&nbsp;пред
+            </div>
+            <div class="swiper__button swiper__button_type_next">
+              след&nbsp;→
+            </div>
+          </div>
+          <div class="swiper__bg"></div>
         </div>
+      </div>
     </header>
     <section class="contacts">
       <p class="contacts__title">контактная&nbsp;информация</p>
@@ -323,6 +349,16 @@
         <p class="footer__text">Разработано by Кирилл Куренцов</p>
       </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper__button_type_next",
+          prevEl: ".swiper__button_type_prev",
+        },
+      });
+    </script>
   </body>
 </html>
