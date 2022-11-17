@@ -19,3 +19,12 @@
   /* draw behind child elements */
   z-index: -1;
 }
+
+@media screen and (max-width: 1280px) {
+  .footer__line {
+    max-width: 690px;
+  }
+  .footer__line::before {
+    max-width: 690px;
+  }
+}

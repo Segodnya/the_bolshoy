@@ -15,6 +15,7 @@
 
 /* Swiper */
 @import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper/__projects/swiper__projects.css);
 @import url(../blocks/swiper/__box/swiper__box.css);
 @import url(../blocks/swiper/__wrapper/swiper__wrapper.css);
 @import url(../blocks/swiper/__image/swiper__image.css);
@@ -87,6 +88,7 @@
 @import url(../blocks/donate/__input/donate__input.css);
 @import url(../blocks/donate/__textarea/donate__textarea.css);
 @import url(../blocks/donate/__text/donate__text.css);
+@import url(../blocks/donate/__text-button/donate__text-button.css);
 
 /* Footer */
 @import url(../blocks/footer/footer.css);

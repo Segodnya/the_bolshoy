@@ -11,3 +11,10 @@
   line-height: 150%;
   color: #989898;
 }
+
+@media screen and (max-width: 1280px) {
+  .donate__text {
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+  }
+}

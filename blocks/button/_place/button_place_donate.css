@@ -4,3 +4,10 @@
   justify-self: flex-end;
   width: 190px;
 }
+
+@media screen and (max-width: 1280px) {
+  .button_place_donate {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+  }
+}

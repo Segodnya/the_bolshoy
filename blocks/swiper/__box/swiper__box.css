@@ -2,3 +2,9 @@
   position: relative;
   z-index: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .swiper__box {
+    display: none;
+  }
+}
