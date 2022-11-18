@@ -37,6 +37,7 @@
 }
 
 .menu__socials {
+  padding-top: 90px;
   width: 140px;
   display: flex;
   flex-wrap: wrap;
