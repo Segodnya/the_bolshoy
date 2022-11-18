@@ -1,12 +1,12 @@
 .menu {
-  margin-top: 50px;
+  top: 0;
   left: 0;
   position: fixed;
   height: 100vh;
   width: 300px;
-  transform: translateX(0);
-  transition: all 0.5 ease;
-  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 1;
   background-color: #333;
   z-index: 2;
   color: #fff;
@@ -19,13 +19,17 @@
 
 .menu__links {
   margin: 0;
+  padding-top: 140px;
   left: 0;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
 }
 
 .menu__link {
+  display: block;
   text-decoration: none;
-  margin-bottom: 35px;
   color: #fff;
   font-family: "Open Sans Condensed";
   font-style: normal;
@@ -37,6 +41,7 @@
 }
 
 .menu__socials {
+  margin: 0 auto;
   padding-top: 90px;
   width: 140px;
   display: flex;
@@ -49,10 +54,14 @@
 }
 
 .menu__close {
+  position: absolute;
   cursor: pointer;
   float: right;
-  right: 10px;
+  top: 30px;
+  right: 30px;
   font-size: 40px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .menu-active {
