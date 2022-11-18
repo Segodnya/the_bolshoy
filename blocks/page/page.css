@@ -1,6 +1,5 @@
 .page {
-  min-width: 576px;
-  max-width: 1920px;
+  max-width: 1920;
   background-color: #333;
   margin: 0 auto;
   font-family: "Open Sans", sans-serif, serif;
