@@ -1,0 +1,13 @@
+.header-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 945px) {
+  .header-mobile {
+    margin: 0 auto;
+    padding: 56px 0 114px;
+    display: flex;
+    justify-content: space-between;
+    max-width: calc(100% - 66px);
+  }
+}

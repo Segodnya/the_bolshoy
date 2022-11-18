@@ -9,3 +9,9 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+  .about__title {
+    text-align: center;
+  }
+}

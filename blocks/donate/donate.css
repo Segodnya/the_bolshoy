@@ -11,3 +11,10 @@
     max-width: 690px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .donate {
+    padding: 120px 33px 80px;
+    max-width: calc(100% - 66px);
+  }
+}

@@ -1,6 +1,7 @@
 .header__phone {
   margin: 0;
   padding: 0;
+  max-height: 27px;
   font-family: "Open Sans Condensed";
   font-style: normal;
   font-weight: 700;

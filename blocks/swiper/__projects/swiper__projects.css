@@ -3,7 +3,13 @@
   overflow: hidden;
   margin: 0 auto;
   padding: 100px 0 0 0;
-  max-width: 690px;
+  max-width: 510px;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper__projects {
+    max-width: 690px;
+  }
 }
 
 @media screen and (min-width: 1281px) {

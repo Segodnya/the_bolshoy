@@ -9,6 +9,21 @@
   </head>
   <body class="page">
     <header class="header" id="header">
+      <div class="header-mobile">
+        <div class="menu">
+          <nav class="menu__nav">
+            <ul class="menu__links">
+              <li><a href="#header" class="menu__link">Главная</a></li>
+              <li><a href="#about" class="menu__link">о театре</a></li>
+              <li><a href="#projects" class="menu__link">Наши постановки</a></li>
+              <li><a href="#partners" class="menu__link">партнеры театра</a></li>
+              <li><a href="#donate" class="menu__link">контакты</a></li>
+            </ul>
+            <a href="#" class="menu__close">X</a>
+        </div>
+        <a href="#" class="header-mobile__button"></a>
+        <p class="header__phone">+7 495 123-45-67</p>
+      </div>
       <nav class="header__nav">
         <ul class="header__links">
           <li><a href="#header" class="header__link">Главная</a></li>
@@ -71,6 +86,7 @@
         </div>
       </div>
     </header>
+
     <section class="contacts">
       <p class="contacts__title">контактная&nbsp;информация</p>
       <div class="contacts__line"></div>
@@ -127,24 +143,34 @@
         </div>
         <div class="about__col">
           <h3 class="about__title">немного о цифрах</h3>
-          <img
-            src="./images/about/about__armchair.svg"
-            alt="Иконка кресла"
-            class="about__icon"
-          />
-          <p class="about__caption">
-            <span class="about__caption about__caption_highlighted">1600 </span>
-            посадочный мест
-          </p>
-          <img
-            src="./images/about/about__theater.svg"
-            alt="Иконка театральной сцены"
-            class="about__icon"
-          />
-          <p class="about__caption">
-            <span class="about__caption about__caption_highlighted">350 </span>
-            лет истории
-          </p>
+          <div class="about__facts">
+            <div class="about__fact">
+              <img
+                src="./images/about/about__armchair.svg"
+                alt="Иконка кресла"
+                class="about__icon"
+              />
+              <p class="about__caption">
+                <span class="about__caption about__caption_highlighted"
+                  >1600
+                </span>
+                посадочный мест
+              </p>
+            </div>
+            <div class="about__fact">
+              <img
+                src="./images/about/about__theater.svg"
+                alt="Иконка театральной сцены"
+                class="about__icon"
+              />
+              <p class="about__caption">
+                <span class="about__caption about__caption_highlighted"
+                  >350
+                </span>
+                лет истории
+              </p>
+            </div>
+          </div>
         </div>
         <div class="about__col">
           <img
@@ -367,5 +393,6 @@
     </footer>
     <script src="./vendor/swiper/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

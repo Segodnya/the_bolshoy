@@ -11,3 +11,11 @@
     grid-column: 3 / 4;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .button_place_donate {
+    margin: 0 auto;
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+  }
+}

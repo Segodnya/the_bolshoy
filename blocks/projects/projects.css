@@ -3,3 +3,16 @@
   padding: 150px 0 0 0;
   max-width: 1770px;
 }
+
+@media screen and (max-width: 1280px) {
+  .projects {
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .projects {
+    padding: 150px 40px;
+    max-width: 100%;
+  }
+}

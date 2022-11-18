@@ -10,3 +10,9 @@
   align-items: center;
   gap: 40px;
 }
+
+@media screen and (max-width: 945px) {
+  .contacts {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.header-mobile__button {
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  background-image: url("../../../images/header/header-mobile__button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

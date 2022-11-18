@@ -7,3 +7,15 @@
   font-size: 36px;
   line-height: 150%;
 }
+
+@media screen and (max-width: 768px) {
+  .rating__text {
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .rating__text {
+    font-size: 25px;
+  }
+}

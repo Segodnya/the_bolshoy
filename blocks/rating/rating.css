@@ -19,3 +19,10 @@
     padding-left: 190px;
   }
 }
+
+@media screen and (max-width: 945px) {
+  .rating {
+    padding-left: 33px;
+    gap: 20px;
+  }
+}

@@ -43,6 +43,13 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__text/header__text.css);
 
+/* Header-Mobile */
+@import url(../blocks/header-mobile/header-mobile.css);
+@import url(../blocks/header-mobile/__button/header-mobile__button.css);
+
+/* Menu */
+@import url(../blocks/menu/menu.css);
+
 /* Section-title */
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_highlighted/section-title__highlighted.css);
@@ -56,6 +63,8 @@
 @import url(../blocks/about/__icon/about__icon.css);
 @import url(../blocks/about/__caption/about__caption.css);
 @import url(../blocks/about/__caption/_highlighted/about__caption_highlighted.css);
+@import url(../blocks/about/__facts/about__facts.css);
+@import url(../blocks/about/__fact/about__fact.css);
 @import url(../blocks/about/__photo/about__photo.css);
 
 /* Projects */

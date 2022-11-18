@@ -28,3 +28,13 @@
     grid-column: 3 / 4;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .donate__textarea {
+    max-width: 100%;
+  }
+  .donate__textarea {
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+  }
+}
