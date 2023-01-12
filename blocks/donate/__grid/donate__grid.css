@@ -20,3 +20,10 @@
     grid-template-rows: repeat(2, 35px) 100px 50px auto 75px;
   }
 }
+
+@media screen and (max-width: 590px) {
+  .donate__grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 35px) 100px 50px auto repeat(2, 75px);
+  }
+}

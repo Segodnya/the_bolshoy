@@ -12,3 +12,9 @@
   text-transform: uppercase;
   color: #d1a954;
 }
+
+@media screen and (max-width: 620px) {
+  .rating__years {
+    font-size: 54px;
+  }
+}

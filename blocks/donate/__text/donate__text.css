@@ -27,3 +27,10 @@
     grid-column: 1 / 3;
   }
 }
+
+@media screen and (max-width: 590px) {
+  .donate__text {
+    grid-row: 7 / 8;
+    grid-column: 1 / 2;
+  }
+}
